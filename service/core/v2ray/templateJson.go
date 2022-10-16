@@ -4,18 +4,6 @@ const TemplateJson = `
 {
     "inbounds": [
         {
-      "port": 32345,
-      "protocol": "dokodemo-door",
-      "settings": {
-        "network": "tcp",
-        "followRedirect": true
-      },
-      "sniffing": {
-        "enabled": true,
-        "destOverride": ["http","tls"]
-      }
-    },
-        {
             "port": 20170,
             "listen": "0.0.0.0",
             "protocol": "socks",
